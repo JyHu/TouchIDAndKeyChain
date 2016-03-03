@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CDA5A4D1C86813C00A23E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA5A4C1C86813C00A23E00 /* main.m */; };
+		1CDA5A501C86813C00A23E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA5A4F1C86813C00A23E00 /* AppDelegate.m */; };
+		1CDA5A581C86813C00A23E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDA5A571C86813C00A23E00 /* Assets.xcassets */; };
+		1CDA5A5B1C86813C00A23E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDA5A591C86813C00A23E00 /* LaunchScreen.storyboard */; };
+		1CDA5A641C8681A400A23E00 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA5A631C8681A400A23E00 /* NavigationViewController.m */; };
+		1CDA5A671C8681B200A23E00 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA5A661C8681B200A23E00 /* HomePageViewController.m */; };
+		1CE27D8C1C86EAB200F160C0 /* KeyChainHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE27D8B1C86EAB200F160C0 /* KeyChainHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CDA5A481C86813C00A23E00 /* TLT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CDA5A4C1C86813C00A23E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CDA5A4E1C86813C00A23E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CDA5A4F1C86813C00A23E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CDA5A571C86813C00A23E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CDA5A5A1C86813C00A23E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CDA5A5C1C86813C00A23E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CDA5A621C8681A400A23E00 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		1CDA5A631C8681A400A23E00 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		1CDA5A651C8681B200A23E00 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		1CDA5A661C8681B200A23E00 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		1CE27D8A1C86EAB200F160C0 /* KeyChainHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChainHandler.h; sourceTree = "<group>"; };
+		1CE27D8B1C86EAB200F160C0 /* KeyChainHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChainHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CDA5A451C86813C00A23E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDA5A3F1C86813C00A23E00 = {
+			isa = PBXGroup;
+			children = (
+				1CDA5A4A1C86813C00A23E00 /* LoginWithTouchID */,
+				1CDA5A491C86813C00A23E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CDA5A491C86813C00A23E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CDA5A481C86813C00A23E00 /* TLT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CDA5A4A1C86813C00A23E00 /* LoginWithTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				1CDA5A4E1C86813C00A23E00 /* AppDelegate.h */,
+				1CDA5A4F1C86813C00A23E00 /* AppDelegate.m */,
+				1CDA5A621C8681A400A23E00 /* NavigationViewController.h */,
+				1CDA5A631C8681A400A23E00 /* NavigationViewController.m */,
+				1CDA5A651C8681B200A23E00 /* HomePageViewController.h */,
+				1CDA5A661C8681B200A23E00 /* HomePageViewController.m */,
+				1CE27D8A1C86EAB200F160C0 /* KeyChainHandler.h */,
+				1CE27D8B1C86EAB200F160C0 /* KeyChainHandler.m */,
+				1CDA5A571C86813C00A23E00 /* Assets.xcassets */,
+				1CDA5A591C86813C00A23E00 /* LaunchScreen.storyboard */,
+				1CDA5A5C1C86813C00A23E00 /* Info.plist */,
+				1CDA5A4B1C86813C00A23E00 /* Supporting Files */,
+			);
+			path = LoginWithTouchID;
+			sourceTree = "<group>";
+		};
+		1CDA5A4B1C86813C00A23E00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CDA5A4C1C86813C00A23E00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CDA5A471C86813C00A23E00 /* LoginWithTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDA5A5F1C86813C00A23E00 /* Build configuration list for PBXNativeTarget "LoginWithTouchID" */;
+			buildPhases = (
+				1CDA5A441C86813C00A23E00 /* Sources */,
+				1CDA5A451C86813C00A23E00 /* Frameworks */,
+				1CDA5A461C86813C00A23E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginWithTouchID;
+			productName = LoginWithTouchID;
+			productReference = 1CDA5A481C86813C00A23E00 /* TLT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CDA5A401C86813C00A23E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "胡金友";
+				TargetAttributes = {
+					1CDA5A471C86813C00A23E00 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1CDA5A431C86813C00A23E00 /* Build configuration list for PBXProject "LoginWithTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CDA5A3F1C86813C00A23E00;
+			productRefGroup = 1CDA5A491C86813C00A23E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CDA5A471C86813C00A23E00 /* LoginWithTouchID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CDA5A461C86813C00A23E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDA5A5B1C86813C00A23E00 /* LaunchScreen.storyboard in Resources */,
+				1CDA5A581C86813C00A23E00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CDA5A441C86813C00A23E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CDA5A671C8681B200A23E00 /* HomePageViewController.m in Sources */,
+				1CDA5A501C86813C00A23E00 /* AppDelegate.m in Sources */,
+				1CE27D8C1C86EAB200F160C0 /* KeyChainHandler.m in Sources */,
+				1CDA5A4D1C86813C00A23E00 /* main.m in Sources */,
+				1CDA5A641C8681A400A23E00 /* NavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CDA5A591C86813C00A23E00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CDA5A5A1C86813C00A23E00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CDA5A5D1C86813C00A23E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CDA5A5E1C86813C00A23E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CDA5A601C86813C00A23E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LoginWithTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JinyouHu.LoginWithTouchID;
+				PRODUCT_NAME = TLT;
+			};
+			name = Debug;
+		};
+		1CDA5A611C86813C00A23E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LoginWithTouchID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JinyouHu.LoginWithTouchID;
+				PRODUCT_NAME = TLT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDA5A431C86813C00A23E00 /* Build configuration list for PBXProject "LoginWithTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDA5A5D1C86813C00A23E00 /* Debug */,
+				1CDA5A5E1C86813C00A23E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CDA5A5F1C86813C00A23E00 /* Build configuration list for PBXNativeTarget "LoginWithTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDA5A601C86813C00A23E00 /* Debug */,
+				1CDA5A611C86813C00A23E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CDA5A401C86813C00A23E00 /* Project object */;
+}
